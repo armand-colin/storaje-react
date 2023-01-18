@@ -1,0 +1,25 @@
+{
+  "name": "@storaje/react",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "armand-colin <56818352+armand-colin@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "storaje": "^1.0.1",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26"
+  }
+}
